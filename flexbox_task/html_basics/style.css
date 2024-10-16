@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+  width: 80%;
+  min-height: 500px;
+  margin:0 auto;
+  background-color: rgb(190, 211, 204);
+}
+
+.container-content-1 {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+
+.child-content-1 {
+  width: 35%;
+  height: 400px;
+  background-color: #e03434;
+  margin-right: 30px;
+}
+/* This container is responsible for the child elements inside*/
+.child-content-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  width: 40%;
+  height: 400px;
+}
+
+.child {
+  width: 213px;
+  height: 190px;
+  background-color: #e03434;
+}
+
+.container-content-2 {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
